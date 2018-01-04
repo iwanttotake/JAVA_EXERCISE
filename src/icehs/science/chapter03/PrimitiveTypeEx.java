@@ -1,9 +1,7 @@
 package icehs.science.chapter03;
 
-public class PrimitiveTypeEx
-{
-	public static void main(String[] args)
-	{
+public class PrimitiveTypeEx{
+	public static void main(String[] args){
 		int myAge = 27;
 		long billWealth = 700000000L;
 		double pi = 3.1415926535;

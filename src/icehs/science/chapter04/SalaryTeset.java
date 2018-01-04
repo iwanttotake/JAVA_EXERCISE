@@ -1,9 +1,7 @@
 package icehs.science.chapter04;
 
-public class SalaryTeset
-{
-	public static void main(String[] args)
-	{
+public class SalaryTeset{
+	public static void main(String[] args){
 		int monthSalary = 1000000;
 		int yearSalary = monthSalary * 12;
 		int bonus = monthSalary * 20/100 * 4;

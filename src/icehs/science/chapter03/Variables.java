@@ -1,9 +1,7 @@
 package icehs.science.chapter03;
 
-public class Variables
-{
-	public static void main(String[] Args)
-	{
+public class Variables{
+	public static void main(String[] Args){
 		int age = 19;
 		int koreanScore = 95;
 		int englishScore = 100;

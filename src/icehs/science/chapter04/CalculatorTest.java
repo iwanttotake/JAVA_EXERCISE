@@ -1,9 +1,7 @@
 package icehs.science.chapter04;
 
-public class CalculatorTest
-{
-	public static void main(String[] args)
-	{
+public class CalculatorTest{
+	public static void main(String[] args){
 		int number1 = 20;
 		int number2 = 7;
 		

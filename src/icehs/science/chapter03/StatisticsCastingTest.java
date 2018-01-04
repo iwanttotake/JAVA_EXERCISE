@@ -1,9 +1,7 @@
 package icehs.science.chapter03;
 
-public class StatisticsCastingTest
-{
-	public static void main(String[] args)
-	{
+public class StatisticsCastingTest{
+	public static void main(String[] args){
 		double lottoProbability = 0.0000001235;
 		long population = 6973738433L;
 		
