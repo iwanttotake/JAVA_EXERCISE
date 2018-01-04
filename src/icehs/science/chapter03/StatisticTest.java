@@ -15,5 +15,4 @@ public class StatisticTest {
 		System.out.println("전 세계의 인구 수 : " + population);
 		System.out.println("위 값들이 정확한가요? : " + isRight);
 	}
-
 }
