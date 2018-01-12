@@ -10,7 +10,16 @@ public class PolyPersonTest {
 //		Person t1 = new Teacher("전우치", "124", "자바");
 		
 		p1[0].eat();
-		p1[1].eat();
-		p1[2].eat();
+		((Student)p1[1]).study();
+		((Teacher)p1[2]).teach();
+		
+		if(p1[1] instanceof Student) {
+			Student s =  (Student)p1[1];
+			s.study();
+			
+		} else if(p1[1] instanceof Teacher) {
+			Teacher t =  (Teacher)p1[1];
+			t.teach();
+		}
 	}
 }
