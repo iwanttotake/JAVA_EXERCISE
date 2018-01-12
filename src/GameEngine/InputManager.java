@@ -3,7 +3,7 @@ package GameEngine;
 import java.util.Scanner;
 
 public class InputManager {
-	public static String getUserInput() {
+	public static String GetUserInput() {
         Scanner sc = new Scanner(System.in);
         if(sc.hasNextLine()) {
         	String input = sc.nextLine();
